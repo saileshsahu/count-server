@@ -1,0 +1,24 @@
+{
+  "name": "count-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saileshsahu/count-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saileshsahu/count-server/issues"
+  },
+  "homepage": "https://github.com/saileshsahu/count-server#readme",
+  "dependencies": {
+    "@netlify/functions": "^2.8.0",
+    "netlify-lambda": "^2.0.16"
+  },
+  "scripts": {
+    "dev": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  }
+}
